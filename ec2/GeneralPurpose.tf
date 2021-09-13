@@ -83,3 +83,45 @@ variable "T2" {
         
     }
 }
+
+variable "M6g" {
+  type = map(string)
+  default = {
+    # vCPU: 1 Memory(GiB): 4
+    m6g_medium = "m6g.medium"
+    # vCPU: 2 Memory(GiB): 8
+    m6g_large = "m6g.large"
+    # vCPU: 4 Memory(GiB): 16
+    m6g_xlarge = "m6g.xlarge"
+    # vCPU: 8 Memory(GiB): 32
+    m6g_2xlarge = "m6g.2xlarge"
+    # vCPU: 16 Memory(GiB): 64
+    m6g_4xlarge = "m6g.4xlarge"
+    # vCPU: 32 Memory(GiB): 128
+    m6g_8xlarge = " m6g.8xlarge"
+    # vCPU: 48 Memory(GiB): 182
+    m6g_12xlarge = "m6g.12xlarge"
+    # vCPU: 64 Memory(GiB): 256
+    m6g_16xlarge = "m6g.16xlarge"
+    # vCPU: 64 Memory(GiB): 256
+    m6g_metal = "m6g.metal"
+    # vCPU: 1 Memory(GiB): 4
+    m6gd_medium = "m6gd.medium"
+    # vCPU: 2 Memory(GiB): 8
+    m6gd_large = "m6gd.large"
+    # vCPU: 64 Memory(GiB): 16
+    m6gd_xlarge = "m6gd.xlarge"
+    # vCPU: 64 Memory(GiB): 32
+    m6gd_2xlarge = "m6gd.2xlarge"
+    # vCPU: 64 Memory(GiB): 64
+    m6gd_4xlarge = "m6gd.4xlarge"
+    # vCPU: 64 Memory(GiB): 128
+    m6gd_8xlarge = "m6gd.8xlarge"
+    # vCPU: 64 Memory(GiB): 192
+    m6gd_12xlarge = "m6gd.12xlarge"
+    # vCPU: 64 Memory(GiB): 256
+    m6gd_16xlarge = "m6gd.16xlarge"
+    # vCPU: 64 Memory(GiB): 256
+    m6gd_metal = "m6gd.metal"
+  }
+}
